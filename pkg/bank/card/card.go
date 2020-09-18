@@ -5,7 +5,7 @@ import (
 )
 
 //PaymentSource fff
-func PaymentSource(cards []types.Card) []types.PaymentSource {
+func PaymentSources(cards []types.Card) []types.PaymentSource {
 
 	var data []types.PaymentSource
 

@@ -25,7 +25,7 @@ func ExamplePaymentSources() {
     },
   }
   
-  paymentSources := PaymentSource(cards)
+  paymentSources :=  PaymentSources(cards)
 
   for _, num := range paymentSources {
     fmt.Println(num.Number)
